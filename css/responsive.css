@@ -1,0 +1,223 @@
+/*=========================
+* Medium Layout: 1280px. 
+===========================*/
+@media only screen and (min-width:992px) and (max-width:1200px) {
+  .contact-img img {
+    margin-left: 30px;
+    width: 220px;
+  }
+
+  .footer-cards {
+    margin-top: 38px;
+  }
+
+  .footer-cards a {
+    margin: 0 5px;
+  }
+
+  .footer-social-links {
+    margin-top: -15px;
+  }
+
+  .footer-social-links a {
+    margin: 0 5px;
+  }
+
+}
+
+/*=========================
+* Tablet Layout: 768px. 
+===========================*/
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .logo img {
+    margin-bottom: 20px;
+  }
+
+  .top-area {
+    text-align: center;
+  }
+
+  .header-text h2 {
+    padding-top: 50px;
+  }
+
+  .main-menu .nav.navbar-nav > li > a {
+    padding-top: 20px;
+  }
+
+  .is-sticky .main-menu ul.nav.navbar-nav li a {
+    padding: 15px;
+  }
+
+  .social-links {
+    top: 13px;
+  }
+
+  .is-sticky .social-links {
+    top: 10px;
+  }
+
+  .dish {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contact-img {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .footer-widget > .section-heading > h2 {
+    font-size: 20px;
+  }
+
+  .footer-social-links i {
+    margin: 2px 5px 0;
+  }
+
+  .navbar-collapse.collapse.in {
+    background-color: red;
+  }
+
+  .navbar {
+    min-height: 0px;
+  }
+
+  .igredients-area:before {
+    background: none;
+  }
+
+}
+
+/*=========================
+* Mobile Layout: 320px. 
+===========================*/
+@media only screen and (max-width:767px) {
+  .top-area {
+    text-align: center;
+  }
+
+  .navbar-toggle {
+    margin: 0;
+    top: -64px;
+  }
+
+  .main-menu {
+    padding-top: 70px;
+    text-align: center;
+  }
+
+  .main-menu .navbar-default {
+    background-color: #000;
+    margin: 10px 0;
+  }
+
+  .main-menu .navbar {
+    min-height: 0;
+  }
+
+  .main-menu .navbar-toggle {
+    margin-top: -65px;
+  }
+
+  .main-menu .navbar-nav li.active::before {
+    background: #333 none repeat scroll 0 0;
+    height: 100%;
+  }
+
+  .main-menu .nav.navbar-nav > li > a {
+    padding-top: 23px;
+  }
+
+  .is-sticky .main-menu ul.nav.navbar-nav li a {
+    padding: 16px 15px;
+  }
+
+  .main-menu .nav.navbar-nav > li > a {
+    border-bottom: 1px solid #333;
+    font-size: 19px;
+  }
+
+  .igredients-area:before {
+    background: none;
+  }
+
+  .social-links {
+    top: -55px;
+  }
+
+  .is-sticky .social-links {
+    right: 10px;
+    top: -52px;
+  }
+
+  .header-text h2 {
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
+
+  .btn-filled {
+    margin: 10px 0;
+  }
+
+  .section-heading h2 {
+    font-size: 28px;
+  }
+
+  .contact-img img {
+    margin-bottom: 30px;
+  }
+
+  .footer-area .section-heading h2 {
+    margin-bottom: 32px;
+    margin-top: 40px;
+    padding-bottom: 34px;
+    font-size: 21px;
+  }
+
+  .single-reviews p {
+    font-size: 18px;
+  }
+
+  .testimonial-list {
+    padding: 0;
+  }
+
+  #testimonial-carousel::before {
+    font-size: 25px;
+  }
+
+  .is-sticky .header-area::after {
+    height: 60%;
+  }
+
+  .is-sticky .social-links {
+    right: 0;
+    top: -84px;
+  }
+
+  .contact-img {
+    text-align: center;
+  }
+
+  .contact-img img {
+    margin-left: 0px;
+  }
+
+}
+
+/*===========================
+ * Wide Mobile Layout: 480px. 
+ ============================*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+  .dish {
+    text-align: center;
+  }
+
+  .header-text {
+    background: rgba(0, 0, 0, 0) url("../img/section-bg.png") no-repeat scroll 46% 103%;
+    padding-bottom: 190px;
+    padding-top: 218px;
+  }
+
+}
